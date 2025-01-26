@@ -1,0 +1,33 @@
+{
+  "name": "mcp-relay",
+  "version": "1.0.0",
+  "description": "Discord relay MCP server",
+  "type": "module",
+  "main": "build/index.js",
+  "bin": {
+    "mcp-relay": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "start": "node build/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "discord",
+    "relay"
+  ],
+  "author": "Emilio Bool",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.4.1",
+    "discord.js": "^14.17.3",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.10",
+    "typescript": "^5.7.3"
+  },
+  "files": [
+    "build"
+  ]
+}
