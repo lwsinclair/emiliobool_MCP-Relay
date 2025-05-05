@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/mcp-mirror-emiliobool-mcp-relay-badge.png)](https://mseep.ai/app/mcp-mirror-emiliobool-mcp-relay)
+
 # MCP Relay
 
 This MCP server allows Claude to send messages and prompts to a Discord channel and receive responses.
